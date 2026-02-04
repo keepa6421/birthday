@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for a cute look -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <h1 class="animate-pop">Happy Birthday <span id="name-placeholder">Nievanik</span>! ❤️</h1>
+            <p>I made this just for you.</p>
+            <button id="start-btn" class="cute-btn">Click Me!</button>
+        </div>
+        <div class="floating-shapes">
+            <!-- Shapes will be added by CSS/JS -->
+        </div>
+    </header>
+
+    <!-- Main Content (Hidden initially for effect) -->
+    <main id="main-content" class="hidden">
+
+        <!-- Music Player Placeholder -->
+        <div class="music-player">
+            <span>🎶 Now Playing: Your Favorite Song</span>
+            <button id="music-toggle">❚❚</button>
+        </div>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <h2>Keepa 📸</h2>
+            <div class="gallery-grid">
+                <!-- Placeholders for images -->
+                <div class="photo-card">
+                    <img src="a.jpg" alt="Memory 1">
+                </div>
+                <div class="photo-card">
+                    <img src="b.jpg" alt="Memory 2">
+                </div>
+                <div class="photo-card">
+                    <img src="c.jpg" alt="Memory 3">
+                </div>
+                <div class="photo-card">
+                    <img src="d.jpg" alt="Memory 4">
+                </div>
+            </div>
+        </section>
+
+        <!-- Reasons I Love You / Message Section -->
+        <section id="message" class="section">
+            <h2>Why You're Special ✨</h2>
+            <div class="message-box">
+                <p>Hello Nievanik, I love you so much. You are the best thing that has ever happened to me. I hope you
+                    have a wonderful birthday!</p>
+                <br>
+                <p>Love,<br>Keepa</p>
+            </div>
+        </section>
+
+        <!-- Interactive Gift -->
+        <section id="gift" class="section">
+            <h2>A Little Gift 🎁</h2>
+            <div class="gift-box-container">
+                <div id="gift-box">
+                    <div class="lid"></div>
+                    <div class="box"></div>
+                </div>
+                <div id="gift-message" class="hidden">
+                    <h3>Free Hug Coupon! 🎟️</h3>
+                    <p>(Or whatever you want this to be!)</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Made with ❤️ for you.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
